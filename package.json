@@ -1,0 +1,29 @@
+{
+	"name": "consistency",
+	"version": "1.8.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "wp-scripts build src/index.js",
+		"start": "wp-scripts start src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/scripts": "27.8.0"
+	},
+	"dependencies": {
+		"@wordpress/components": "^27.6.0",
+		"@wordpress/core-data": "^6.35.0",
+		"@wordpress/data": "^9.28.0",
+		"@wordpress/dom-ready": "^3.58.0",
+		"@wordpress/edit-post": "^7.35.0",
+		"@wordpress/element": "^6.4.0",
+		"@wordpress/i18n": "^4.58.0",
+		"@wordpress/notices": "^4.26.0",
+		"@wordpress/plugins": "^6.26.0",
+		"@wordpress/preferences": "^3.35.0"
+	}
+}
